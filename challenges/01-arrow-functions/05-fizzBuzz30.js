@@ -3,21 +3,17 @@
 //'fizzbuzz'
 
 
-const fizzBuzz30 = num => num / 2;
+const fizzBuzz30 = () =>  {
+    let newArray = [];
+    for (var i=1; i <= 30; i++){
+        if (i % 15 == 0) newArray.push("fizzbuzz");
+        else if (i % 3 == 0) newArray.push("fizz");
+        else if (i % 5 == 0) newArray.push("buzz");
+        else newArray.push(i);
 
-if {[i/3]}
-
-if {i/5}
-
-2 if statements and declare an empty string to 
-
-for (var i=1; i < 30; i++){
-    if (i % 15 == 0) console.log("FizzBuzz");
-    else if (i % 3 == 0) console.log("Fizz");
-    else if (i % 5 == 0) console.log("Buzz");
-    else console.log(i);
+    }
+    return newArray;
 }
-
 
 
 
